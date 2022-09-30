@@ -12,18 +12,18 @@ I follow this workflow:
 
 Summarize steps: 
 ## EDA (Exploratory Data Analysis)
-Following my intuition I confronted various features with the target.
 
-![download](https://user-images.githubusercontent.com/109316190/193087319-50fdbba2-acbb-4737-80e9-2a279ae88ef7.png)
+First of all we look at the passengers distribution between the three class: as we can see the majority of the passengers was in the third class.
+
+![download](https://user-images.githubusercontent.com/109316190/193251604-9173ec38-0a42-406a-9927-a7c7d4a2ba40.png)
+
+So is quite trivial that the most of the passengers that didn't survive to the disaster was from that class, as shown in the following plot: 
+
+![download](https://user-images.githubusercontent.com/109316190/193252032-b93e78dc-c4b5-4adb-9485-a19a71e7bf21.png)
 
 Here I confronted the price paid for a ticket and tha age of the passenger: as shown by this plot, passanger that paid higer fares for boarding are also more like to survive.
 
-I checked also the distribution of the survivers in respect to the class they boarded: 
-
-![download](https://user-images.githubusercontent.com/109316190/193088214-57753a37-6c7e-4ca3-8f49-23617ce49876.png)
-
-Here is shown that passengers from the first class was survived more than the other two.
-
+![download](https://user-images.githubusercontent.com/109316190/193087319-50fdbba2-acbb-4737-80e9-2a279ae88ef7.png)
 
 ## Modeling
 

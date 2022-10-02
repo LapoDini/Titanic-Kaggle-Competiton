@@ -17,11 +17,11 @@ First of all we look at the passengers distribution between the three classes: a
 
 ![download](https://user-images.githubusercontent.com/109316190/193251604-9173ec38-0a42-406a-9927-a7c7d4a2ba40.png)
 
-So it is quite predictible that the most of the passengers that didn't survive the disaster was from that class, as shown in the following plot: 
+So it is quite predictible that most of the passengers that didn't survive the disaster was from that class, as shown in the following plot: 
 
 ![download](https://user-images.githubusercontent.com/109316190/193252032-b93e78dc-c4b5-4adb-9485-a19a71e7bf21.png)
 
-Here I have compared the price paid for a ticket and the age of passengers: as shown by this plot, passengers that paid higer fares for boarding are also more likely to survive.
+Here I have compared the price paid for a ticket and the age of passengers: as shown by this plot, passengers that paid higher fares for boarding are also more likely to survive.
 
 ![download](https://user-images.githubusercontent.com/109316190/193087319-50fdbba2-acbb-4737-80e9-2a279ae88ef7.png)
 
@@ -29,7 +29,7 @@ Here I have compared the price paid for a ticket and the age of passengers: as s
 
 To preprocess my data I have decided to encode the categorical variable using `category` data type provided by pandas and using the corresponding code for every value. 
 
-I have decided to fill my data adding a bit more of information by dreating a columns to check if a value was missing. 
+I have decided to fill my data adding a bit more information by creating columns to check if a value was missing. 
 
 After preprocessing my data I have decided to train 4 different models from `Scikit-Learn`, on my train set and evaluating them on my validation set.
 
@@ -45,10 +45,10 @@ I have compares the score of these models in the following plot:
 
 and picked `RandomForestClassifier` to do the job, because of its higher base-line score.
 
-After that I used `RandmoizedSearchCV` with a pipeline, to standarize the data, and tuned my model but unfotunately I didn't see any improvement.
+After that I used `RandmoizedSearchCV` with a pipeline, to standardize the data, and tuned my model, but unfotunately I didn't see any improvement.
 
 ## Where to go from here? 
 
-I think that obtain a better understening of the data could be beneficial. If possible I would also try to find new data to add more informations. 
-I don't think that overtunning the model could be a good idea, but maybe I could try another model or preprocess the data in a more efficent way. 
+I think that obtaining a better understanding of the data could be beneficial. If possible I would also try to find new data to add more information. 
+I don't think that overtuning the model could be a good idea, but maybe I could try to use a more efficient model or to preprocess the data in a more effective way. 
 
